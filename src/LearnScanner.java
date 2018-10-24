@@ -4,7 +4,8 @@ public class LearnScanner {
         Scanner input= new Scanner(System.in);
         System.out.println("hi!");
         System.out.println("what is your name?");
-        String name=input.next();
-        System.out.println("Hello " + name);
+        String name=input.nextLine();
+        double height=input.nextDouble();
+        System.out.println("Hello " + name +"height"+ height);
     }
 }
